@@ -31,6 +31,9 @@ img {
   height: auto;
 }
 
+ul{
+  list-style: none;
+}
 
 /* CONTAINER */
 .container {
@@ -46,4 +49,72 @@ img {
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
+}
+
+
+/* intro  */
+.intro {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+.main-person-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  margin-right: 40px;
+}
+
+.title {
+  margin: 0;
+}
+
+.contacting-source {
+  margin-top: 20px;
+}
+
+/* Projects wrapper  */
+
+.projects {
+}
+.projects-title {
+  margin-bottom: 0;
+
+}
+.note{
+  font-style: italic;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.projects-wrapper {
+}
+.project-item {
+  margin-bottom: 40px;
+}
+.project-date{
+  font-style: italic;
+}
+.project-item-title {
+}
+.project-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  flex-wrap: wrap;
+
+}
+.project-img{
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.project-inner-info {
+}
+.links-to-project {
+  margin-bottom: 10px;
+}
+.project-info-text {
+  max-width: 400px;
+
 }
