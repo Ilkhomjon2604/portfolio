@@ -64,6 +64,7 @@ ul{
   height: 150px;
   border-radius: 150px;
   margin-right: 40px;
+  object-fit: cover;
 }
 
 .title {
