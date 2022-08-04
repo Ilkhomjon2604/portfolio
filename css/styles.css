@@ -74,7 +74,21 @@ ul{
 .contacting-source {
   margin-top: 20px;
 }
-
+/* education  */
+.education {
+}
+.tuitor-data-wrapper {
+  display: flex;
+  align-items:center;
+  margin-bottom: 30px;
+}
+.tuitors-data {
+  width: 200px;
+  margin-right: 40px;
+}
+.tuitor-data-wrapper p{
+  width: 500px;
+}
 /* Projects wrapper  */
 
 .projects {
