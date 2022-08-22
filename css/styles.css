@@ -38,7 +38,7 @@ ul{
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
   padding-left: 50px;
   padding-right: 50px;
   margin-left: auto;
@@ -75,20 +75,79 @@ ul{
   margin-top: 20px;
 }
 /* education  */
-.education {
+
+.tuitors-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 .tuitor-data-wrapper {
-  display: flex;
+  width: 200px;
   align-items:center;
+  text-align: center;
+
+
+}
+
+.edu-title{
+  margin-bottom: 50px;
+}
+
+.tuitor-data-wrapper:not(:last-child){
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.tuitor-img{
+  object-fit: cover;
+  border-radius:200px;
+  margin-bottom: 20px;
+}
+
+.tuitor-title{
+  height: 70px;
+  display: flex;
+  align-items:center
+}
+.tuitor-name {
+  margin-bottom: 15px;
+}
+
+
+.more-about-tuitor {
+  text-align: start;
   margin-bottom: 30px;
+  height: 260px;
 }
 .tuitors-data {
-  width: 200px;
-  margin-right: 40px;
+  display: flex;
+  justify-content: space-around;
 }
-.tuitor-data-wrapper p{
-  width: 500px;
+
+.more-info{
+  display: none;
 }
+
+.read-more{
+color:rgb(85, 0, 255);
+cursor: pointer;
+display: block;
+}
+.read-less{
+  color:rgb(85, 0, 255);
+  display:  none;
+  cursor: pointer;
+}
+
+.open-text{
+  display: block;
+}
+.close-text{
+  display: none;
+}
+
 /* Projects wrapper  */
 
 .projects {
